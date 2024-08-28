@@ -32,6 +32,6 @@ main = do
     let inventory4 = removeProduct inventory3 "Platanos"
     let (totalQty, totalValue) = inventorySummary inventory4
     
-    putStrLn $ "Inventario Final: " ++ show inventory4
+    putStrLn $ "Inventario Final:  " ++ show inventory4
     putStrLn $ "Total de productos en stock: " ++ show totalQty
     putStrLn $ "Valor total del inventario: " ++ show totalValue
